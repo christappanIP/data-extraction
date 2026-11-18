@@ -1,0 +1,8 @@
+# Data extraction (refreshes and pulls). The Impress refreshes reach Impress through the query bridge, not a driver.
+pandas
+numpy
+pyarrow
+openpyxl
+requests
+msal
+msal-extensions

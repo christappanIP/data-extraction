@@ -1,0 +1,17 @@
+{
+ "_note": "Folders the nightly launcher scans for the newest source workbook (extract_inputs.py --scan). Point these at OneDrive shortcuts to the SharePoint folders on the refresh machine. A folder that doesn't exist is skipped; the committed JSON stays as-is.",
+ "sources": {
+  "sales_workbook": {
+   "pattern": "Sales Dashboard *.xlsx",
+   "folders": ["%USERPROFILE%\\OneDrive - Image Pointe\\Sales - Dashboard", "%USERPROFILE%\\Image Pointe\\Sales - Dashboard"]
+  },
+  "management": {
+   "pattern": "Conslidated Management Dashboard IP DA*.xlsx",
+   "folders": ["%USERPROFILE%\\OneDrive - Image Pointe\\KPI Dashboard\\2026", "%USERPROFILE%\\OneDrive - Image Pointe\\2026"]
+  },
+  "health": {
+   "pattern": "Customer Health Metrics v*.xlsx",
+   "folders": ["%USERPROFILE%\\OneDrive - Image Pointe\\Sales - Customer Health Metrics", "%USERPROFILE%\\Image Pointe\\Sales - Customer Health Metrics"]
+  }
+ }
+}
